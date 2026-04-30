@@ -91,3 +91,17 @@ footer a{
     padding: 8px 12px;
     flex: 2;
 }
+.tabla-estudiantes {
+  border-collapse: collapse; /* une las líneas */
+  width: 50%;
+}
+
+.tabla-estudiantes th,
+.tabla-estudiantes td {
+  border: 2px solid black; /* grosor y color de las líneas */
+  padding: 8px;
+}
+
+.tabla-estudiantes th {
+  background-color: #ccc;
+}
